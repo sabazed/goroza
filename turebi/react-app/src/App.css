@@ -1,0 +1,33 @@
+.tours-header {
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0 0.5rem 0;
+    color: #000f22;
+}
+
+.tours-header-border {
+    border-bottom: 3px #5c9fcc solid;
+    width: 3rem;
+    content: '';
+    margin: 0 auto;
+}
+
+.refresh-button {
+    padding: 1rem;
+    background-color: #5c9fcc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem auto;
+    display: block;
+    cursor: pointer;
+}
+
+.loading-text {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+}

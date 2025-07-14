@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #F1F5F8;
+  font-size: 16px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorozas Kitxvari</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <span>Ramdenad kargad icnob gorozas?</span>
+            <div id="remaining">
+                Kitxva <span id="curr-question-num"></span> / <span class="all-questions-num"></span>
+            </div>
+            <div id="result">
+                Shen sworad gaeci <span class="all-questions-num"></span>-dan <span id="correct-guesses-num"></span> kitxvas
+            </div>
+        </div>
+        <div id="body">
+            <div id="question"></div>
+            <div id="answers">
+                <div>
+                    <input id="ans-1" type="radio" name="answer" value="0" />
+                    <label for="ans-1"></label>
+                </div>
+                <div>
+                    <input id="ans-2" type="radio" name="answer" value="1" />
+                    <label for="ans-2"></label>
+                </div>
+                <div>
+                    <input id="ans-3" type="radio" name="answer" value="2" />
+                    <label for="ans-3"></label>
+                </div>
+                <div>
+                    <input id="ans-4" type="radio" name="answer" value="3" />
+                    <label for="ans-4"></label>
+                </div>
+            </div>
+        </div>
+        <div id="footer" onclick="submit()">Submit</div>
+    </div>
+</body>
+</html>

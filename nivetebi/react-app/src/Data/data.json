@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "name": "Gorozas Maika (XXXXXXL)",
+            "price": "69.69",
+            "image": "./Images/maika.png",
+            "qty": 1
+        },
+        {
+            "name": "Gorozas Naushnikebi",
+            "price": "120.00",
+            "image": "./Images/naushnikebi.png",
+            "qty": 1
+        },
+        {
+            "name": "Gorozas Matrasi (Sufta)",
+            "price": "116.36",
+            "image": "./Images/matrasi.png",
+            "qty": 1
+        },
+        {
+            "name": "Gorozas Skami (ver gaudzlo)",
+            "price": "51.15",
+            "image": "./Images/skami.png",
+            "qty": 1
+        },
+        {
+            "name": "Gorozas Fexi (Marjvena Dzlieri)",
+            "price": "1337.00",
+            "image": "./Images/fexi.png",
+            "qty": 1
+        }
+    ]
+}

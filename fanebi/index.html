@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gorozas Fanklubi</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Nika Gorozias Gulshematkivrebis Saregistracio Forma</h1>
+        <p id="description">Goroza gixdit madlobas tqveni tavdauzogavi shromistvisa da dzalixsmevistvis</p>
+
+        <form id="survey-form">
+            <h2>Form</h2>
+            <label id="name-label">
+                Name
+                <input id="name" name="user-name" type="text" placeholder="Enter your name" minlength="3" required />
+            </label>
+            <label id="email-label">
+                Email
+                <input id="email" name="user-email" type="email" placeholder="Enter your Email" required />
+            </label>
+            <label id="pswd-label">
+                Password
+                <input id="password" name="user-password" type="password" required/>
+            </label>
+            <label id="conf-pswd-label">
+                Confirm Password
+                <input id="confirm-password" name="user-confirm-password" type="password" required />
+            </label>
+            <label class="div-inline">
+                <span>Gender:</span>
+                <label><input class="input-inline" type="radio" name="recommend" value="D" checked> Male</label>
+                <label><input class="input-inline" type="radio" name="recommend" value="M"> Female</label>
+                <label><input class="input-inline" type="radio" name="recommend" value="N"> Other</label>
+                <label><input class="input-inline" type="radio" name="recommend" value="N"> Goroza</label>
+            </label>
+            <div class="div-inline">
+                <span>Interests:</span>
+                <div><label><input name="impr-front" value="impr-front" class="input-inline" type="checkbox"> Sports</label></div>
+                <div><label><input name="impr-back" value="impr-back" class="input-inline" type="checkbox"> Music</label></div>
+                <div><label><input name="impr-data" value="impr-data" class="input-inline" type="checkbox"> Travel</label></div>
+                <div><label><input name="impr-chal" value="impr-chal" class="input-inline" type="checkbox"> Eating</label></div>
+            </div>
+            <label>
+                Country:
+                <select name="country">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value=0>Georgia</option>
+                    <option value=1>Ukraine</option>
+                    <option value=2>USA</option>
+                    <option value=3>Gorozland</option>
+                </select>
+            </label>
+            <label>
+                How much do you love Goroza:
+                <input id="range" type="range" min="1" max="100" value="50" class="slider">
+                <span id="range-val">50</span>
+            </label>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>

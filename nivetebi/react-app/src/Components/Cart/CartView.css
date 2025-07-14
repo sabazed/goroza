@@ -1,0 +1,40 @@
+.cartview {
+    margin: 50px auto 0 auto;
+}
+
+.cartview-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: 2rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #102a42;
+}
+
+.cartview-clear-btn {
+    display: block;
+    padding: 0.5rem 1.25rem; 
+    margin: 0 auto;
+    background: none;
+    border-radius: 0.25rem;
+    border: 2px solid #bb2525;
+    color: #bb2525;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    transition: 100ms ease-in-out;
+}
+
+.cartview-clear-btn:hover {
+    background-color: #bb2525;
+    color: #F1F5F8;
+}
+
+.empty-cart-footer {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    letter-spacing: 0.1rem;
+}

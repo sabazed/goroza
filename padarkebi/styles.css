@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F7F7F7;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+#form > div {
+    width: 50%;
+}
+
+#form > div:first-child { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form > div:last-child {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem 0;
+}
+
+#input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#input-form > * {
+  padding: 1rem;
+  margin: 0.5rem auto;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+}
+
+#input-form > input {
+    border: 3px solid #F0F0F0;
+}
+
+#input-form > button {
+  background-color: #1c9e49;
+  transition: 150ms ease-in-out;
+  color: white;
+  cursor: pointer;
+}
+
+#input-form > button:hover {
+    background-color: #f54029;
+}
+
+#gift-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.gift-list-entry {
+    width: 80%;
+    max-width: 80%;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0.5rem auto;
+    padding: 1rem 2rem;
+    
+}
+
+.gift-list-entry > * {
+    padding: 0 0.5rem;
+}
+
+.gift-list-entry > span {
+    width: 50%;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.gift-list-entry > button {
+    padding: 0.5rem 1rem;
+    background-color: #f54029;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration-color: black;
+}
